@@ -3867,7 +3867,15 @@ input, select, textarea {
 				text-align: center;
 			}
 
-			@media screen and (max-width: 1280px) {
+			#main > .post.featured > header > a.link {
+        color: black;
+			}
+
+			#main > .post.featured > header > a.link:hover {
+        color: blue;
+			}
+
+      @media screen and (max-width: 1280px) {
 
 				#main > .post {
 					padding: 6rem 4rem 4rem 4rem ;
